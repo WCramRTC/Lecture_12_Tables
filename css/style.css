@@ -15,11 +15,13 @@ table {
     width: 100%;
     text-align: center;
     margin-top: 20px;
+    background-color: lightblue;
 }
 
 table  td {
     border: 1px solid black;
     padding: 5px;
+    background-color: orange;
 }
 
 table td:hover {
@@ -27,3 +29,17 @@ table td:hover {
     color: white;
 }
 
+table th {
+    color: red;
+}
+
+
+#col-1 {
+    width: 10%;
+}
+#col-2 {
+    width: 80%;
+}
+#col-3 {
+    width: 10%;
+}
