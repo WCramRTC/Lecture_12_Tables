@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    margin: 0 auto;
+    width: 80%;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table  td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table td:hover {
+    background-color: black;
+    color: white;
+}
+
